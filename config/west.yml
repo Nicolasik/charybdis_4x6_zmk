@@ -1,13 +1,18 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/petejohanson
+      url-base: https://github.com/zmkfirmware
     - name: badjeff
       url-base: https://github.com/badjeff
+          # Додавання підтримки nice OLED
+    - name: mctechnology17
+      url-base: https://github.com/mctechnology17
+    - name: semtexfromua
+      url-base: https://github.com/semtexfromua
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: feat/pointers-with-input-processors
+      revision: main
       import: app/west.yml
     - name: zmk-pmw3610-driver
       remote: badjeff
@@ -15,8 +20,12 @@ manifest:
     - name: zmk-split-peripheral-input-relay
       remote: badjeff
       revision: main
-    - name: zmk-input-behavior-listener
-      remote: badjeff
+    - name: zmk-input-behavior-listener-custom
+      remote: semtexfromua
+      revision: main
+          # Додавання nice OLED модуля
+    - name: zmk-nice-oled
+      remote: mctechnology17
       revision: main
   self:
     path: config
