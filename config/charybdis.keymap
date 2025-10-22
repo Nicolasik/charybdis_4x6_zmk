@@ -127,7 +127,7 @@
             quick-tap-ms = <0>;
             flavor = "tap-preferred";
         };
-
+    };
     keymap {
         compatible = "zmk,keymap";
 
