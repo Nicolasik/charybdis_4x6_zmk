@@ -52,7 +52,7 @@ layers:
   - {t: SPACE, h: NAV}
   - {t: LEFT ALT, h: SYMNUM}
   - R CLK
-  - \
+  - RIGHT COMMAND
   - BACK SPACE
   - LEFT COMMAND
   - L CLK
@@ -109,7 +109,7 @@ layers:
   - {t: NAV, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -166,7 +166,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: SYMNUM, type: held}
   - {t: ▽, type: trans}
-  - ENTER
+  - \
   - BSPC
   - LEFT SHIFT
   - {t: ▽, type: trans}
