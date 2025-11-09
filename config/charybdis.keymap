@@ -166,12 +166,12 @@
 
         layer_3 {
             bindings = <
-&trans          &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&msc MOVE_X(0)  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                &trans  &trans  &trans    &trans  &trans
-                                        &trans  &trans    &trans
+&kp ESC         &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans
+&trans          &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans
+&trans          &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans
+&msc MOVE_X(0)  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans
+                                &trans  &trans  &trans    &trans     &trans
+                                        &trans  &trans    &kp ENTER
             >;
         };
 
