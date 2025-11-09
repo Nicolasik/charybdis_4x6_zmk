@@ -37,7 +37,7 @@ layers:
   - L
   - ;
   - ''''
-  - LCTRL
+  - '&msc MOVE_Y(0)'
   - Z
   - X
   - C
